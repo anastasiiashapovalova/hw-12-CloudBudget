@@ -146,7 +146,7 @@ body {
     display: block;
 }
 
-.main {
+.main-features {
     background-color:#FAFAFA;
 }
  
@@ -175,6 +175,7 @@ body {
     font-size: 18px;
     line-height: 22px;
     margin-bottom: 16px;
+    color: #101010;
 }
 
 .features-card-small {
@@ -194,11 +195,12 @@ body {
     font-size: 12px;
     line-height: 18px;
     margin-bottom: 26px;
+    color: #101010;
 }
 
 .features {
     padding-top: 63px;
-    padding-bottom: 124px;
+    padding-bottom: 229px;
 }
 
 .features-card-link {
@@ -212,3 +214,176 @@ body {
     font-size: 14px;
     color: #bb1627;
 }
+
+.features-title {
+    margin-bottom: 64px;
+}
+
+.technology-title {
+    margin-bottom: 53px;
+}
+
+.technology {
+    padding-top: 63px;
+    padding-bottom: 104px;
+}
+
+.technology-card {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 255px;
+    margin-right: 30px;
+    position: relative;
+}
+
+.technology-card:last-child {
+    margin-right: 0;
+}
+
+.technology-card-image,
+.technology-card-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.technology-card-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+    margin-bottom: 10px;
+}
+
+.technology-card-text {
+    text-align: center;
+    font-size: 12px;
+    line-height: 18px;
+    color: #101010;
+    margin-left: 34px;
+    margin-right: 30px;
+}
+
+.technology-card-img {
+    position: absolute;
+}
+
+.technology-card-image {
+    width: 117px;
+    height: 120px;
+    margin-bottom: 19px;
+}
+
+.technology-card-img.first {
+    top: 59px;
+    right: 95px;
+    left: 87px;
+}
+
+.technology-card-img.second {
+    top: 65px;
+    right: 95px;
+    left: 94px;
+}
+
+.technology-card-img.third {
+    top: 61px;
+    right: 92px;
+    left: 93px;
+}
+
+.technology-card-img.fourth {
+    top: 71px;
+    right: 104px;
+    left: 104px;
+}
+
+.footer {
+    background-color: #FAFAFA;
+    padding-top: 85px;
+    padding-bottom: 83px;
+}
+
+.footer-card-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+}
+
+.footer-card,
+.footer-card-last {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-card-text,
+.footer-copyright {
+    font-size: 12px;
+    line-height: 18px;
+    color: #101010;
+}
+
+.footer-card-title {
+    margin-bottom: 33px;
+}
+
+.footer-card {
+    width: 254px;
+    margin-right: 30px;
+}
+
+.footer-card.submenu {
+    margin-right: 30px;
+}
+
+.footer-card-text-wrap {
+    margin-bottom: 140px;
+}
+
+.footer-card-last {
+    margin-right: 166px;
+    width: 122px;
+}
+
+.footer-card-last:last-child {
+    margin-right: 0;
+}
+
+.footer-card-link,
+.footer-card-link-mail {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.footer-card-link:hover {
+    font-size: 14px;
+}
+
+.footer-card-link-mail {
+    display: block;
+    margin-bottom: 7px;
+}
+
+.footer-card-link-mail:hover {
+    font-size: 14px;
+}
+
+.footer-card-link.tel:hover {
+    font-size: 14px;
+}
+
+.footer-card-link.tel {
+    display: block;
+    margin-bottom: 16px;
+}
+
+.footer-card-socials-item {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 12px;
+}
+
